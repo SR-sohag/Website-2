@@ -1,0 +1,53 @@
+@media(max-width:700px) {
+    .tax-box h1{
+        font-size: 20px;
+    }
+    .nav-link ul li {
+       display: block; 
+    }
+    .nav-links{
+        position: absolute;
+         background-color: #f44336; 
+        height: 100vh;
+         width: 150px;
+         top: 0px;
+         right: -200px;
+         text-align: left;
+         z-index: 2;
+         transition: 1s;
+    }
+nav .fa {
+    display: block;
+    color: #fff;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.nav-links ul {
+     padding: 30px;
+}
+}
+/*--Course--*/
+@media(max-width: 700px){
+    .row {
+        flex-direction: column;
+    }
+}
+
+
+
+@media(max-width: 700px){
+    .testimonials-col img{
+        margin-left: 0;
+        margin-right: 15px;
+    }
+}
+
+@media(max-width: 700px){
+    .cta {
+        margin-top: 780px;
+    }
+    .cta h1 {
+        font-size: 15px;
+    }
+}
